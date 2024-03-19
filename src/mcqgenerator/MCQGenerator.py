@@ -68,7 +68,7 @@ Check from an expert English Writer of the above quiz
 
 """
 quiz_evaluation_prompt=PromptTemplate(
-    input_variables=["subject","quize"],
+    input_variables=["subject","quiz"],
     template=template2
 )
 #2 nd chain (Quiz review)
