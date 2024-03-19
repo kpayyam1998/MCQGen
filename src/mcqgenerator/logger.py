@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 
-LOG_FILE=f"{datetime.now().strftime('%m_%d%Y_%H_%M_%S')}.log" # set the file format
+LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log" # set the file format
 
 log_path=os.path.join(os.getcwd(),"logs")# get the current path directory and save file name will be logs
 os.makedirs(log_path,exist_ok=True) # if its exisit also Make true
